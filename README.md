@@ -1,7 +1,5 @@
 
-# Code-Basics-project-9-FMCG-Domain
-This is a Resume project challenge given by code basics ( FMCG domain) to analyze and provide meaningful insights by addressing the problem statement.
-# Project-9 Analyzing Promotion and Festive sales for AtliQ Mart
+# Project-9 Analyzing Promotion and festive sales for AtliQ Mart
 
 # FMCG domain
 
@@ -9,8 +7,6 @@ This is a Resume project challenge given by code basics ( FMCG domain) to analyz
 
  ![atliq_image](https://github.com/prithvipai32/Code-Basics-project-9-FMCG-Domain/assets/160827333/99eea682-0bf7-4d1e-9297-d38f48285964)
 
- 
-![code basics](https://github.com/prithvipai32/Code-Basics-project-9-FMCG-Domain/assets/160827333/75cb54fd-4c5f-4662-985c-3d4a100f773f)
 
 This dashboard is designed to help AtliQ Mart analyze the promotion sales that was held during the festive periods of diwali and sankranthi on their branded products.
 
@@ -28,13 +24,9 @@ Step 1 : Load data into Power BI Desktop, dataset is a csv file.
 
 Step 2 : Check and make necessary data cleaning for the given data.
 
-Step 3 : Created certain calculated coloumns in fact_events such as revenue_before_promotion and revenue_after_promotion.
+Step 3 : Created custom coloumns using power query in fact_events such as revenue_before_promotion,discount and revenue_after_promotion.
 
-![image-7](https://github.com/prithvipai32/Code-Basics-project-9-FMCG-Domain/assets/160827333/90d324fe-fc5a-4910-8a73-abf9e95eff31)
-
-![image-8](https://github.com/prithvipai32/Code-Basics-project-9-FMCG-Domain/assets/160827333/69c2786a-6be7-4eaf-900a-409406f06679)
-
- Step 4 :Created measures to find Incremental revenue(IR), Incremental sold quantity (ISU), IR%, ISU%, top_bottom_stores by IR.
+Step 4 :Created measures to find Incremental revenue(IR), Incremental sold quantity (ISU), IR%, ISU%, top_bottom_stores by IR.
 
  Snap of created measures:
 
@@ -58,8 +50,7 @@ Step 5 : In the report view, under the view tab, theme was selected.Background w
  Step 8 : Visual filters (Slicers) for diwali and sankranthi campaign, top/bottom choice, value filters, KPI's were added.
 
 snapshot:
- ![image9](https://github.com/prithvipai32/Code-Basics-project-9-FMCG-Domain/assets/160827333/59efa51d-54b9-4bcc-a48c-e59f8270d515)
-
+ ![1](https://github.com/prithvipai32/code-basics-project-9/assets/160827333/7ca73f9a-c424-44f5-b68e-c02515428f54)
 Step 9 : Formatting was performed on visuals. Appropriate graphical representation was choosen. necessary legends, filters, Dynamic title were applied.
 
  Step 10 : Tool tips, bookmarks,reset button, sliders,info page, Q/A section were added for easily analyzing the data.
@@ -72,15 +63,15 @@ Step 9 : Formatting was performed on visuals. Appropriate graphical representati
 
  2)Store performance analysis
 
- ![store_performance](https://github.com/prithvipai32/Code-Basics-project-9-FMCG-Domain/assets/160827333/7c2c80ef-b523-45eb-af8a-db60c348e62f)
+![2](https://github.com/prithvipai32/code-basics-project-9/assets/160827333/18938729-e7b7-40b8-985d-aedc9fbb165a)
 
 3)Promotion type analysis
 
-![promotion_type](https://github.com/prithvipai32/Code-Basics-project-9-FMCG-Domain/assets/160827333/30ebe657-fe48-4a95-a0eb-264e0fe870f0)
+![3](https://github.com/prithvipai32/code-basics-project-9/assets/160827333/8596f40b-3215-4834-8487-fa0eda9aae4c)
 
 4)Product & category analysis
 
-![product category](https://github.com/prithvipai32/Code-Basics-project-9-FMCG-Domain/assets/160827333/f7b2b44a-f797-45b5-a1cb-be5099065081)
+![4](https://github.com/prithvipai32/code-basics-project-9/assets/160827333/4de922d9-3413-4b83-abc2-c49b5bdd03ea)
 
 # Insights
 
@@ -90,25 +81,25 @@ Including both diwali and sankranthi campaigns:
 
 ## KPI
 
-### [1] Total Revenue generated after promotions = 226.24 millions
-### [2] Incremental revenue (IR) = 85.53 millions
+### [1] Total Revenue generated after promotions = 247.98 millions
+### [2] Incremental revenue (IR) = 107.28 millions
 ### [3] Incremental sold units (ISU) = 0.23 millions
-### [4] IR% = 60.8 %
+### [4] IR% = 76.3 %
 ### [5] ISU% = 108.31 %
 
 ## Stores
            
-### [6] Store located in Mysore with Store Id STMYS-1 has generated the Highest Incremental revenue with 3.04 M
+### [6] Store located in Mysore with Store Id STMYS-1 has generated the Highest Incremental revenue with 3.63 M
 
-### [7] Store located in Mangalore with Store Id STMLR-0 has generated Least Incremental revenue with 0.53 M
+### [7] Store located in Mangalore with Store Id STMLR-0 has generated Least Incremental revenue with 0.78 M
 
-### [8] Bangalore  city has generated High Incremental revenue of 21.58M
+### [8] Bangalore  city has generated High Incremental revenue of 26.74M
 
-### [9] Trivandrum city has generated Least incremental revenue of 1.83M
+### [9] Trivandrum city has generated Least incremental revenue of 2.35M
 
 ## Promotion type
 
-### [10] Promotype of 500 Cashback has generated highest IR of 91.05 M with increase in sales quantity by 157k units.
+### [10] Promotype of 500 Cashback has generated highest IR of 91.05 M and promo type BOGOF showed increase in sales quantity by 157k units.
 
 ### [11] Percentage offers generated least revenue when compared to sales with cashback and BOGOF offers. 
 
